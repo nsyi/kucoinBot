@@ -42,11 +42,12 @@ api_passphrase "<YOUR_PASSPHRASE>"
         time, open, close, high, low, volume, turnover
 
 `get_initial_volatility` Returns the inital volatility
-Args:
-symbol (str): symbol, e.g. ETH-BTC
-type (str): 1min, 3min, 5min, 15min, 30min, 1hour, 2hour, 4hour, 6hour, 8hour, 12hour, 1day, 1week
-Returns:
-volatility
+
+    Args:
+        symbol (str): symbol, e.g. ETH-BTC
+        type (str): 1min, 3min, 5min, 15min, 30min, 1hour, 2hour, 4hour, 6hour, 8hour, 12hour, 1day, 1week
+    Returns:
+        volatility
 
 ## 📝 Notes
 
